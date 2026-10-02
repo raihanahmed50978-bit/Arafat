@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-macos:
-    runs-on: macos-11  # Intel MacOS runner ব্যবহার করছি
+    runs-on: macos-latest  # Updated to the latest macOS runner
 
     steps:
       - name: Checkout source code
